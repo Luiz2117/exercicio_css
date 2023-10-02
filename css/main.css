@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body > header{
+    background-color: rgb(105, 105, 105);
+    padding: 16px 0;
+    color: white
+}
+
+header      .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 16px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    align-items:center
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px;*/
+    width: 100%;
+
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+
+}
+
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;    
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: azure;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article P, 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#economy {
+    background-color: rgb(163, 124, 226);
+}
+
+#economy .articles article a {
+    background-color: blueviolet;
+}
+
+#sports {
+background-color: rgb(176, 233, 179)
+}
+
+#sports .articles article a {
+    background-color: rgb(10, 156, 10)
+}
+
+#tecnology {
+    background-color: rgb(128, 165, 177)
+    }
+    
+    #tecnology .articles article a {
+        background-color: rgb(38, 58, 158)
+    }
+
+    #entretenimento {
+        background-color: rgb(233, 123, 109)
+        }
+        
+        #entretenimento .articles article a {
+            background-color: rgb(190, 29, 1)
+        }
